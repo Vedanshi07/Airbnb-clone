@@ -1,9 +1,11 @@
 import { FaHeart, FaStar } from "react-icons/fa";
-
+import { Link } from "react-router-dom";
 function PropertyCard({ property }) {
   return (
-    <div className="group cursor-pointer">
-
+      <Link
+      to={`/property/${property.id}`}
+      className="group cursor-pointer block"
+      >
       {/* Image */}
 
       <div className="relative overflow-hidden rounded-2xl">
@@ -58,7 +60,7 @@ function PropertyCard({ property }) {
 
       </div>
 
-    </div>
+    </Link>
   );
 }
 

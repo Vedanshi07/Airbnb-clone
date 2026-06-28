@@ -1,3 +1,5 @@
+import MainLayout from "../../layouts/MainLayout";
+
 import Navbar from "../../components/Navbar/Navbar";
 import Landing from "../../components/Landing/Landing";
 import SearchBar from "../../components/SearchBar/SearchBar";
